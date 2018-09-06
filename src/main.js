@@ -1,9 +1,21 @@
 import Vue from 'vue'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+import Vuetify from 'vuetify'
+import DaySpanVuetify from 'dayspan-vuetify'
 import App from './App.vue'
 
-Vue.use(ElementUI)
+import 'vuetify/dist/vuetify.min.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import 'dayspan-vuetify/dist/lib/dayspan-vuetify.min.css'
+
+Vue.config.productionTip = false
+
+Vue.use(Vuetify);
+
+Vue.use(DaySpanVuetify, {
+  methods: {
+    getDefaultEventColor: () => '#1976d2'
+  }
+});
 
 new Vue({
   el: '#app',
