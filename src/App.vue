@@ -11,13 +11,13 @@
           @change="dateChangeHandle">
         </el-date-picker>
       </el-aside>
-        
+
       <el-main class='mian'>
         <el-table
           class='c-table'
           :data="tableDatas"
           border
-          height="700"
+          height="100%"
           style="width: 100%"
           @cell-click='tdClickHandle'>
 
@@ -46,7 +46,7 @@
         <el-form-item label="日程时间">
           {{form.beginTime}} -- {{form.endTime}}
         </el-form-item>
-        
+
         <el-form-item label="日程主题">
           <el-input v-model="form.name"></el-input>
         </el-form-item>
