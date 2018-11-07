@@ -6,6 +6,7 @@ import App from './App.vue'
 import 'vuetify/dist/vuetify.min.css'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import 'dayspan-vuetify/dist/lib/dayspan-vuetify.min.css'
+import './styles/lib.scss'
 
 Vue.config.productionTip = false
 

@@ -1,7 +1,7 @@
 {
-  "name": "element-starter",
-  "description": "A Vue.js project",
-  "author": "yi.shyang@ele.me",
+  "name": "calender",
+  "description": "a vue.js for calender",
+  "author": "shell_chen@yeah.net",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --env.dev",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
-    "dayspan-vuetify": "^0.2.6",
+    "dayspan-vuetify": "https://github.com/DxfAndCxx/dayspan-vuetify.git",
     "vue": "^2.5.16",
     "vuetify": "^1.2.3"
   },
